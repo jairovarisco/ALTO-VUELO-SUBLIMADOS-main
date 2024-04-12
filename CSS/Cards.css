@@ -1,0 +1,61 @@
+.main{
+    align-content: center;
+}
+
+h1{
+    font-family: cursive;
+    margin-top: 1%;
+}
+
+#h3{
+    color: rgb(212, 44, 136);
+}
+
+#boock{
+    margin-top: 1%;
+    justify-content: center;
+}
+
+body{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(97, 97, 168);
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0%;
+}
+
+li{
+    margin: 0.5%;
+}
+
+.g{
+    width: 250px;
+    margin: 2%;
+}
+
+#galeria{
+    width: 250px;
+    height: 200px;
+    margin: 2%;
+}
+
+
+ @media (max-width: 575px){
+    
+    ul{
+        flex-direction: column;
+    }
+
+    .g{
+        padding-left: 0%;
+    }
+
+ }
+
+

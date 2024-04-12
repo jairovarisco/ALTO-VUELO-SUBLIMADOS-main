@@ -1,0 +1,54 @@
+main{
+    margin-top: 2%;
+}
+
+.container{
+    align-content: center;
+    margin-top: 5%;
+}
+
+#main{
+    border-radius: 3%;
+    box-shadow: 7px 7px 35px 5px black;
+    padding: 2%;
+}
+
+#fondo{
+    width: 10%;
+}
+
+#env-icon{
+    width: 18%;
+}
+
+.titulo{
+    font-size: 2em;
+    align-items: center;
+}
+
+.col-5{
+    padding: 0%;
+    display: flex;
+}
+
+.envios{
+     margin-top: 5%;
+     display: flex;
+     justify-content: center;
+}
+
+
+@media (max-width: 992px){
+
+    iframe{
+        margin-top: 5%;
+    }
+ }
+
+ @media (max-width: 575px){
+    
+    iframe{
+        margin-top: 5%;
+   }
+
+ }
